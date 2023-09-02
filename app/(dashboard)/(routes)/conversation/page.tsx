@@ -34,7 +34,7 @@ const ConversationPage = () => {
     const [messages, setMessages] = useState<OpenAI.Chat.CreateChatCompletionRequestMessage[]>([]);
 
     const form = useForm<z.infer<typeof formSchema>>({
-        resolve: zodResolver(formSchema),
+        resolver: zodResolver(formSchema),
         defaultVales: {
             prompt: ""
         }
