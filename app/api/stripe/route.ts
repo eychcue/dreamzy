@@ -46,7 +46,7 @@ export async function GET() {
               name: "Dreamzy Pro",
               description: "Unlimited AI Generations"
             },
-            unit_amount: 5000,
+            unit_amount: 500,
             recurring: {
               interval: "month"
             }
